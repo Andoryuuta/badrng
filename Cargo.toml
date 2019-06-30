@@ -1,0 +1,10 @@
+[package]
+name = "badrng_test"
+version = "0.1.0"
+authors = ["Andrew Gutekanst <andrew.gutekanst@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+badrng = { package = "badrng", path = "./badrng" }
